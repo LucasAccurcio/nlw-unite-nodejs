@@ -1,3 +1,44 @@
+# Desafio Configuração de Ambiente com Docker Compose
+
+## Objetivo
+
+Dockerizar uma aplicação pronta, para que esta possa rodar em qualquer ambiente e 
+
+sem a necessidade de instalações de programas e bibliotecas, além do docker.
+
+## Como rodar a aplicação:
+
+Para rodar a aplicação, é necessário ter [Docker](https://www.docker.com/get-started/) e 
+
+docker-compose instalados em sua máquina, além de uma conta [GitHub](https://support.github.com/) para clonar o projeto.
+
+Através do terminal, acesse a pasta onde deseja que projeto seja criado e digite:
+
+
+```bash
+git clone git@github.com:LucasAccurcio/nlw-unite-nodejs.git
+```
+
+Acesse a pasta do projeto `nlw-unite-nodejs`
+
+Rodar o comando:
+
+```bash
+docker-compose up -d
+```
+
+Aguarde até que o build seja concluído e as aplicações iniciadas.
+
+
+## Como acessar a aplicação:
+
+Após início dos serviços, a aplicação poderá será acessada através do browser pela url:
+
+```bash
+http://localhost:3333/docs
+```
+
+
 # pass.in
 
 O pass.in é uma aplicação de **gestão de participantes em eventos presenciais**. 
@@ -35,7 +76,9 @@ Para documentação da API, acesse o link: https://nlw-unite-nodejs.onrender.com
 
 ## Banco de dados
 
-Nessa aplicação vamos utilizar banco de dados relacional (SQL). Para ambiente de desenvolvimento seguiremos com o SQLite pela facilidade do ambiente.
+Nessa aplicação vamos utilizar banco de dados relacional (SQL). Para ambiente de desenvolvimento
+
+seguiremos com o SQLite pela facilidade do ambiente.
 
 ### Diagrama ERD
 
