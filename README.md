@@ -8,9 +8,9 @@ sem a necessidade de instalações de programas e bibliotecas, além do docker.
 
 ## Como rodar a aplicação:
 
-Para rodar a aplicação, é necessário ter [Docker](https://www.docker.com/get-started/) e 
+Para rodar a aplicação, é necessário ter [Docker](https://www.docker.com/get-started/) e docker-compose instalados em sua máquina,
 
-docker-compose instalados em sua máquina, além de uma conta [GitHub](https://support.github.com/) para clonar o projeto.
+além de uma conta [GitHub](https://support.github.com/) para clonar o projeto.
 
 Através do terminal, acesse a pasta onde deseja que projeto seja criado e digite:
 
